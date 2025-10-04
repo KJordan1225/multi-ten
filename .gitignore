@@ -22,3 +22,50 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Composer & PHP
+/vendor/
+composer.lock        # (optional: keep if you want reproducible builds)
+/bootstrap/cache/*.php
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+
+# Env & keys
+.env
+.env.*
+!.env.example
+
+# Node / Vite
+/node_modules/
+/pnpm-lock.yaml
+/yarn.lock
+/build/
+public/build/
+*.local
+npm-debug.log*
+
+# Docker & Sail
+docker-compose.override.yml
+/.docker/
+/vendor/laravel/sail/runtimes/*/xdebug.ini
+
+# Coverage & tooling
+coverage/
+.phpunit.result.cache
+/.php-cs-fixer.cache
+.pint.json
+phpstan.neon.d/
+
